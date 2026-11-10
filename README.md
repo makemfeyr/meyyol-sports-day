@@ -1,3 +1,22 @@
+# Meyyol's Sports Day
+
+Meyyol's Sports Day is planned as a multi-tenant school sports-day management and results platform. The repository is currently a Next.js starter; product authorization, database schema/RLS, storage policies, and operational security controls are not evidenced as implemented.
+
+The Phase 1.8 documentation records approved requirements and open decisions. See [docs/PRD.md](docs/PRD.md), [docs/FOUNDER_DECISIONS.md](docs/FOUNDER_DECISIONS.md), and [docs/OPEN_DECISIONS.md](docs/OPEN_DECISIONS.md) for the authoritative product decisions and acceptance criteria.
+
+## Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Database design](docs/DATABASE.md)
+- [Roles and authorization](docs/RBAC.md)
+- [Security requirements](docs/SECURITY.md)
+- [Data retention and recovery](docs/DATA_RETENTION.md)
+- [Testing strategy](docs/TESTING.md)
+- [Deployment requirements](docs/DEPLOYMENT.md)
+- [Incident response](docs/INCIDENT_RESPONSE.md)
+- [Pilot readiness checklist](docs/PILOT_CHECKLIST.md)
+- [Documentation changelog](docs/CHANGELOG.md)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -29,7 +48,9 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Generic Next.js starter deployment guidance (not a Meyyol decision)
+
+Vercel references in this README, including the starter font and deployment links, are generic Next.js boilerplate and do not represent a Meyyol provider selection. Meyyol's production hosting provider has not been selected, provider selection requires technical evaluation against [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md), and no production deployment decision has been approved. Any selected deployment must meet the approved security requirements.
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
